@@ -1,4 +1,4 @@
-# kartuves
+# KARTUVĖS
 Žaidimas "Kartuvės", kuriame galima spėlioti žodžius, kurie yra generuojami automatiškai iš tinklapio (šiuo atveju: https://lt.wikipedia.org/wiki/Telefonas).
 
 Paleidimo instrukcija:
