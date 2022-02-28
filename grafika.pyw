@@ -14,7 +14,6 @@ langas.title("Žaidimas 'Kartuvės'")
 paveiksleliai = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg"]
 meniu = Menu(langas)
 langas.config(menu=meniu)
-submeniu = Menu(meniu, tearoff=0)
 
 
 # paveikslelis
@@ -25,6 +24,7 @@ paveikslelis = Label(langas, image=img)
 # funkcijos
 def restart():
     langas.destroy()
+    trinti_db()
     os.startfile("grafika.pyw")
 
 
@@ -47,6 +47,7 @@ spejimai = 0
 atspetos_raides = []
 neatspetos_raides = []
 zodis_su_bruksn = []
+print(random_zodis)
 
 
 def spejimas(event):
