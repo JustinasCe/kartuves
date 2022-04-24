@@ -130,7 +130,7 @@ uzrasas2 = Label(langas, text=naujas_zodis_v2, fg="#f00")
 uzrasas3 = Label(langas, text="Neatspėtos raidės:")
 uzrasas4 = Label(langas, text="")
 uzrasas5 = Label(langas, text="Įveskite mažąsias raides (a - ž) ir spauskite 'ENTER'")
-
+uzrasas6 = Label(langas, text="Tema")
 
 # grid
 paveikslelis.grid(rowspan=5, columnspan=5, sticky=W+N)
@@ -140,6 +140,7 @@ iv_laukas.grid(row=2, column=6, sticky=S)
 uzrasas3.grid(row=4, column=6)
 uzrasas4.grid(row=5, column=6)
 uzrasas5.grid(row=3, column=6, sticky=N)
+uzrasas6.grid(row=1, column=7)
 status.grid(row=7, columnspan=5, sticky=W+E)
 langas.bind("<Return>", spejimas)
 
